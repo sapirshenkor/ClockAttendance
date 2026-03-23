@@ -1,0 +1,86 @@
+# =========================
+# .NET / ASP.NET Core
+# =========================
+
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider / JetBrains
+.idea/
+
+# Build outputs
+Debug/
+Release/
+
+# Logs
+*.log
+
+# =========================
+# ASP.NET / Secrets
+# =========================
+
+ClockAttendance/appsettings.Development.json
+!.gitignore
+
+# Environment files
+.env
+.env.*
+
+# User secrets
+secrets.json
+
+# =========================
+# Node / React (frontend)
+# =========================
+
+ClockAttendance/frontend/node_modules/
+ClockAttendance/frontend/build/
+ClockAttendance/frontend/.env
+ClockAttendance/frontend/.env.*
+ClockAttendance/frontend/.cache/
+
+# Logs
+ClockAttendance/frontend/npm-debug.log*
+ClockAttendance/frontend/yarn-debug.log*
+ClockAttendance/frontend/yarn-error.log*
+
+# =========================
+# OS files
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =========================
+# Coverage / Testing
+# =========================
+
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+# Misc
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
