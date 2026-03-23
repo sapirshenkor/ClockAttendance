@@ -1,6 +1,5 @@
 
 
-````markdown
 # Employee Attendance Clock Application
 
 ## 1. Project Overview
